@@ -1,0 +1,31 @@
+{
+  "name": "node-orona",
+  "version": "1.0.0",
+  "description": "-",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "start:dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xAcademy-member/Tarea3NodeJs.git"
+  },
+  "author": "Cinthis M. Orona (cluster 1)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xAcademy-member/Tarea3NodeJs/issues"
+  },
+  "homepage": "https://github.com/xAcademy-member/Tarea3NodeJs#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "lodash": "^4.17.21",
+    "sequelize": "^6.32.1",
+    "sqlite3": "^5.1.6"
+  }
+}
