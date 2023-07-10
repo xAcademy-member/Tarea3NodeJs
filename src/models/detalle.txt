@@ -1,0 +1,5 @@
+carpeta Model tiene las entidades que utilizará la aplicacion: User, Book y Library.
+Con la libreria Sequelize creamos el ORM abstrayendo una representación 
+de las tablas relacionales de la base de datos.
+
+Los datos los utiliza la carpeta Providers.

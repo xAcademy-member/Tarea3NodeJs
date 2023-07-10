@@ -1,0 +1,14 @@
+Encapsula la logica de negocio encargándose de las operaciones realizadas por 
+los controllers y providers.
+
+Controller = gestion de solicitudes y respuestas HTTP.
+Providers = crea instancias de los modelos y los guarda.
+
+Ej: 
+
+const userService = require("./services/user")
+
+app.get("/saludar", (req, res) => {
+    const response = userService.saludar();
+    return resp.json(response);
+});

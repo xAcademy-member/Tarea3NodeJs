@@ -1,0 +1,17 @@
+La carpeta providers crea instancias de los modelos y los guarda.
+Es la capa más baja de todas. 
+Contiene los archivos que definen proveedores de servicios para inyectarlos en los diferentes componentes.
+
+Acá creamos las funciones:
+
+createUser = User.create.
+createLibrary = Library.create.
+createBook = Book.create.
+
+getUser = User.findByPk.
+getLibrary = Library.findByPk.
+getBook = Book.findByPk.
+
+validateUser = User.findAll.
+validateLibrary = Library.findAll.
+validateBook = Book.findAll.

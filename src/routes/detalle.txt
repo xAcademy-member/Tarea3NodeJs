@@ -1,0 +1,6 @@
+La carpeta rutas, tiene los endpoints solicitados por el usuario. (bookRouter, userRouter, authRouter, etc)
+
+Ej: router.post("/", userController.createUser);
+
+Pero también utiliza la carpeta controllers, que se encarga de hacer las peticiones al servicio y
+el servicio solicita a su vez al provider.

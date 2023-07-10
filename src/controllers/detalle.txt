@@ -1,0 +1,5 @@
+El controller intercepta las llamadas del usuario desde una ruta especifica. 
+El objetivo es separar la logica de la aplicacion de la definicion de las rutas.
+
+Cada controlador utiliza un método HTTP. (POST , PUT , GET ,DELETE)
+
